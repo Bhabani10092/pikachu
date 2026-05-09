@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body {
+    height: 100%;
+    width: 100%;;
+}
+body{
+    background: hsl(0, 0%, 100%);
+    border: #f8f5ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 95%;
+    height: 90vh;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.left{
+    width: 90%;
+    background: linear-gradient(to bottom,#ffd900);
+    padding: 40px;
+    position: relative;
+
+}
+.pokemonlogo{
+    width: 100px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 10px;
+}
+.text{
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30%;
+}
+.title{
+    font-size: 70px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 150px;
+    position: absolute;
+    top: 35%;
+}
+.details{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.2;
+    position: absolute;
+    top: 50%;
+}
+.line-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    color: #0b0909;
+    position: absolute;
+    top: 70%;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.right{
+    width: 50%;
+    background: #fcebaf;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pikachu{
+    width: 400px;
+    z-index: 10;
+    position: relative;
+    justify-content: center;
+    right: 80px;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}    
+.dots{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dots span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #d4b100;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+.dots span.active{
+    height: 25px;
+    border-radius: 10px;
+}
+.pokeball{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    width: 120px;
+}
